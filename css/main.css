@@ -33,9 +33,9 @@ body *{
 }
 
 #app{
-  border: 1px solid black;
   max-width: 600px;
   margin: 0 auto;
+  margin-top: 1rem;
   padding: 1rem;
 }
 
@@ -71,13 +71,19 @@ header h1{
 
 table{
   width: 100%;
-  border: .7px solid black;
+  border: .7px solid #ccc;
   border-collapse: collapse;
+  margin-top: 2rem;
 }
 
 table thead{
   background-color: var(--primary-color);
   border-collapse: collapse;
+}
+
+table th{
+  padding: 1rem 0;
+  font-weight: 600;
 }
 
 table td{
